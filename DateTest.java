@@ -10,7 +10,7 @@ public class DateTest {
 		Date d4 = new Date(3, 24, 2010);
 		
 		
-	//Problem 4
+	//Problem 3
 		TreeMap<Date, String> syllabus = new TreeMap(); // use compare to as basis
 		syllabus.put(d1, "java");
 		syllabus.put(d2, "python");
@@ -26,7 +26,7 @@ public class DateTest {
 			//System.out.println(topic.getKey() + "," + topic.getValue());
 		} 
 		
-	//Problem 3	
+	//Problem 2	
 		if (d1.compareTo(d2) == 1) {
 			System.out.println(d1 + " is latter than " + d2);
 		
